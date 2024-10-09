@@ -1,4 +1,4 @@
-*{
+body {
     background-color:rgb(46, 199, 220);
     display:flex;
     justify-content: center;
@@ -45,7 +45,7 @@ transform: rotate(var(--rotation));
     bottom: 50%;
     left: 50%;
     width: 10px;
-    height: 18%;
+    height: 14%;
     background-color: black;
     border: 1px solid white;
     border-top-left-radius:10px ;
@@ -71,7 +71,7 @@ transform: rotate(var(--rotation));
 }
 .clock .hand.second {
     width: 1px;
-    height: 18%;
+    height: 15%;
     background-color: #ff0000;
 }
 .clock.hand.minute{
